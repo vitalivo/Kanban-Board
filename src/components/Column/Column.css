@@ -1,0 +1,88 @@
+.column {
+  background-color: #EBECF0;
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+}
+
+.column__title {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.column__tasks {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 15px;
+}
+
+.column__add-button {
+  background: none;
+  border: none;
+  color: #5E6C84;
+  font-size: 18px;
+  text-align: left;
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.column__add-button:hover {
+  color: #000000;
+}
+
+.column__add-button:disabled {
+  color: #B8B9BB;
+  cursor: not-allowed;
+}
+
+.column__input-container {
+  margin-bottom: 15px;
+}
+
+.column__input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #0079BF;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.column__select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #0079BF;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.column__button-group {
+  display: flex;
+  gap: 8px;
+}
+
+.column__submit-button {
+  background-color: #0079BF;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.column__submit-button:disabled {
+  background-color: #B8B9BB;
+}
+
+.column__cancel-button {
+  background-color: #EBECF0;
+  color: #5E6C84;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 1px solid #5E6C84;
+}

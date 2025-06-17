@@ -1,0 +1,97 @@
+.task-detail {
+  padding: 20px;
+  height: calc(100vh - 110px);
+  overflow-y: auto;
+}
+
+.task-detail__container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.task-detail__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #5E6C84;
+}
+
+.task-detail__title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-right: 30px;
+}
+
+.task-detail__description-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-detail__description-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.task-detail__edit-button {
+  background: none;
+  border: none;
+  color: #5E6C84;
+  cursor: pointer;
+}
+
+.task-detail__description {
+  padding: 15px;
+  border: 1px solid #E4E6EA;
+  border-radius: 5px;
+  min-height: 120px;
+  cursor: pointer;
+}
+
+.task-detail__description--empty {
+  color: #5E6C84;
+  font-style: italic;
+}
+
+.task-detail__textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 15px;
+  border: 1px solid #0079BF;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 16px;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+.task-detail__button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.task-detail__save-button {
+  background-color: #0079BF;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.task-detail__cancel-button {
+  background-color: #EBECF0;
+  color: #5E6C84;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 1px solid #5E6C84;
+}
